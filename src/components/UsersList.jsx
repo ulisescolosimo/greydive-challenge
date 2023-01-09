@@ -44,7 +44,7 @@ const UsersList = ({ users, loading }) => {
                 src = venezuela;
               }
               return (
-                <div className="max-w-xs rounded-md shadow-md h-auto dark:bg-gray-900 dark:text-gray-100">
+                <div className=" w-auto rounded-md shadow-md h-auto dark:bg-gray-900 dark:text-gray-100">
                   <img
                     src={src}
                     alt={item.country_of_origin}
