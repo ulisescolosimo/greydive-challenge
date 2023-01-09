@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  min-height: 15vh;
+}
+
+footer {
+  min-height: 15vh;
+}
+
+#body {
+  min-height: 70vh;
+}
