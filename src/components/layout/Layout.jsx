@@ -4,7 +4,7 @@ import '../../index.css'
 
 function PageLayout(props) {
     return (
-        <div id="main" className="flex flex-col min-h-screen">
+        <div id="main" className="flex flex-col min-h-screen bg-gray-800">
             <Header/>
             <div id="body" className="flex flex-col items-center bg-gray-800">
                 { props.children }
